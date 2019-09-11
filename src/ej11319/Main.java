@@ -72,7 +72,7 @@ public class Main {
 		}
 	}
 
-	private static double[][] invert(double[][] mat) {//matrix invertion by determinants and cofactors
+	private static double[][] invert(double[][] mat) {//matrix invertion
 		double inv[][] = new double[mat.length][mat.length];
 		double invdet = 1 / determinant(mat);
 		for (int i = 0; i < inv.length; i++) {
